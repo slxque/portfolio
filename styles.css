@@ -1,0 +1,177 @@
+body{
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: rgb(54, 51, 51);
+    position: fixed;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: white;
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: rgb(250, 247, 247);
+    text-decoration: none;
+    font-size: 1.8em;
+    padding: 12px;
+}
+
+a:hover{
+    background-color: rgb(102, 93, 93);
+    padding: 7px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width:375px){
+    #welcome-section {
+       font-size: 3px;
+       background-color: aqua;
+    }
+   }
+
+#welcome-section{
+    image-orientation : url(IMG-20240708-WA0012.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-image: linear-gradient(45deg,grey,black);
+}
+
+h1, p{
+    color: rgb(253, 251, 251);
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 17ch;
+    animation: typewriter 6s ;
+}
+
+.image-fluid{
+   width: 40%;
+   border-radius: 100%;
+}
+
+
+@keyframes typewriter{
+    from { width: 0;}
+    
+}
+
+#welcome-section > p{
+    color:  rgb(243, 237, 237);
+    font-size: 5rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.projects{
+    background-image: linear-gradient(45deg,black,grey);
+    width: 100vw;   
+    height: 100vh;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.projects > h2{
+    font-size: 4.5rem;
+    color: rgb(245, 243, 243);
+    margin: 0;
+    padding: 1em;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#contact{
+    background-image: linear-gradient(45deg,grey,rgb(8, 8, 8));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact-p{
+    color: rgb(241, 235, 235);
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: rgb(237, 237, 245);
+    padding: 0;
+    font-size: 7em;
+    margin: 0;
+}
+
+#profile-link{
+    color:rgb(19, 18, 18);
+    padding: 0em;
+    margin: 10em;
+}
+
+.box .icon{
+    padding-top: 20;
+    margin: 0;
+    align-items: center;
+    font-size: 120px;
+}
+
+.box ,h3{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    font-size: 2.5rem;
+    color: #0c0c0c;
+}
+
+.text{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    font-size: 2.5rem;
+}
+
+ p {
+    font-size: 4rem;
+}
+/*this code makes the website viewable on all screens*
